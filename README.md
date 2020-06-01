@@ -1,5 +1,5 @@
 # Always know your screen size
-Supremely simple but quite useful.
+Supremely simple but quite useful. Drag your browser in and out to see it working.
 
 Just copy the code below into the body of any pages you're working on and you'll always know what break point / screen size you're currently working in.
 
