@@ -2,31 +2,35 @@
 ---
 
 @import "{{ site.theme }}";
-@media (min-width: 1200px) {
-.d-xl-inline-block {
-display: inline-block !important;
+:root{--blue:#3490dc;--indigo:#6574cd;--purple:#9561e2;--pink:#f66d9b;--red:#e3342f;--orange:#f6993f;--yellow:#ffed4a;--green:#38c172;--teal:#4dc0b5;--cyan:#6cb2eb;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#3490dc;--secondary:#6c757d;--success:#38c172;--info:#6cb2eb;--warning:#ffed4a;--danger:#e3342f;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:"Nunito", sans-serif;--font-family-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+*,*::before,*::after{box-sizing:border-box;}
+.badge{display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:0.25rem;-webkit-transition:color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;transition:color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+@media (prefers-reduced-motion: reduce){
+.badge{-webkit-transition:none;transition:none;}
 }
-.d-none {
-display: none !important;
+.badge:empty{display:none;}
+.badge-warning{color:#212529;background-color:#ffed4a;}
+.d-none{display:none!important;}
+.d-inline-block{display:inline-block!important;}
+@media (min-width: 576px){
+.d-sm-none{display:none!important;}
+.d-sm-inline-block{display:inline-block!important;}
 }
-.badge-warning {
-color: #212529;
-background-color: #ffed4a;
+@media (min-width: 768px){
+.d-md-none{display:none!important;}
+.d-md-inline-block{display:inline-block!important;}
 }
-.badge {
-display: inline-block;
-padding: 0.25em 0.4em;
-font-size: 75%;
-font-weight: 700;
-line-height: 1;
-text-align: center;
-white-space: nowrap;
-vertical-align: baseline;
-border-radius: 0.25rem;
--webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+@media (min-width: 992px){
+.d-lg-none{display:none!important;}
+.d-lg-inline-block{display:inline-block!important;}
 }
-*::before, *::after {
-box-sizing: border-box;
+@media (min-width: 1200px){
+.d-xl-none{display:none!important;}
+.d-xl-inline-block{display:inline-block!important;}
 }
+.position-fixed{position:fixed!important;}
+@media print{
+*,*::before,*::after{text-shadow:none!important;box-shadow:none!important;}
+body{min-width:992px!important;}
+.badge{border:1px solid #000;}
 }
