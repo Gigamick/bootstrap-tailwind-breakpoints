@@ -1,7 +1,7 @@
-# Always know what break point / screen size you're in
+# Always know your screen size
 Supremely simple but quite useful.
 
-Just copy the code below into the body of any pages you're working on and you'll always know what break point you're currently working in.
+Just copy the code below into the body of any pages you're working on and you'll always know what break point / screen size you're currently working in.
 
 ```
 <div class="position-fixed" style="z-index: 9999999">
