@@ -1,4 +1,4 @@
-# This might just save you a few minutes
+# Screen size / breakpoint badge for Bootstrap
 Easy as pie. Just copy the code in snippet.html into the head of any page you need and you'll always be able to see what bootstrap breakpoint you're at.
 
 Super simple but I use it all the time, so thought others may benefit.
