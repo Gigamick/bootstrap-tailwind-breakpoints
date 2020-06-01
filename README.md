@@ -1,9 +1,7 @@
-# Screen size / breakpoint badge for Bootstrap
-Easy as pie. Just copy the code in snippet.html into the body of any page you need and you'll always be able to see what bootstrap breakpoint you're at.
+# Always know what break point / screen size you're in
+Supremely simple but quite useful.
 
-Super simple but I use it all the time, so thought others may benefit.
-
-In fact you don't even need to go into snippet.html:
+Just copy the code below into the body of any pages you're working on and you'll always know what break point you're currently working in.
 
 ```
 <div class="position-fixed" style="z-index: 9999999">
