@@ -6,7 +6,7 @@ Super simple but I use it all the time, so thought others may benefit.
 In fact you don't even need to go into snippet.html:
 
 ```
-<div class="position-fixed">
+<div class="position-fixed" style="z-index: 9999999">
     <span class="badge badge-warning d-inline-block d-sm-none">XS</span>
     <span class="badge badge-warning d-none d-sm-inline-block d-md-none">SM</span>
     <span class="badge badge-warning d-none d-md-inline-block d-lg-none">MD</span>
