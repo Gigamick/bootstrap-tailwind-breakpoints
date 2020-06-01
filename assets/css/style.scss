@@ -7,14 +7,14 @@
 app.css:7708.d-xl-inline-block {
 display: inline-block !important;
 }
-app.css:7541.d-none {
+.d-none {
 display: none !important;
 }
-app.css:5709.badge-warning {
+.badge-warning {
 color: #212529;
 background-color: #ffed4a;
 }
-app.css:5600.badge {
+.badge {
 display: inline-block;
 padding: 0.25em 0.4em;
 font-size: 75%;
@@ -27,16 +27,7 @@ border-radius: 0.25rem;
 -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-app.css:41*, *::before, *::after {
+*::before, *::after {
 box-sizing: border-box;
 }
-Pseudo-Element ::before
-app.css:41*, *::before, *::after {
-box-sizing: border-box;
-}
-Pseudo-Element ::after
-app.css:41*, *::before, *::after {
-box-sizing: border-box;
-}
-  
 }
