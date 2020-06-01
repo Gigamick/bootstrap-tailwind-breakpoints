@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
+<div class="position-fixed" style="z-index: 9999999">
+    <span class="badge badge-warning d-inline-block d-sm-none">XS</span>
+    <span class="badge badge-warning d-none d-sm-inline-block d-md-none">SM</span>
+    <span class="badge badge-warning d-none d-md-inline-block d-lg-none">MD</span>
+    <span class="badge badge-warning d-none d-lg-inline-block d-xl-none">LG</span>
+    <span class="badge badge-warning d-none d-xl-inline-block">XL</span>
+</div>
     <header class="page-header" role="banner">
       <h1 class="project-name">Bootstrap Breakpoints</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
