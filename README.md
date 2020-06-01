@@ -5,6 +5,7 @@ Super simple but I use it all the time, so thought others may benefit.
 
 In fact you don't even need to go into snippet.html:
 
+```
 <div class="position-fixed">
     <span class="badge badge-warning d-inline-block d-sm-none">XS</span>
     <span class="badge badge-warning d-none d-sm-inline-block d-md-none">SM</span>
@@ -12,3 +13,4 @@ In fact you don't even need to go into snippet.html:
     <span class="badge badge-warning d-none d-lg-inline-block d-xl-none">LG</span>
     <span class="badge badge-warning d-none d-xl-inline-block">XL</span>
 </div>
+```
