@@ -5,7 +5,7 @@ Just copy the code below into the body of any pages you're working on and you'll
 
 BOOTSTRAP
 
-```
+```html
 <div class="position-fixed" style="z-index: 9999999">
     <span class="badge badge-warning d-inline-block d-sm-none">XS</span>
     <span class="badge badge-warning d-none d-sm-inline-block d-md-none">SM</span>
@@ -17,7 +17,7 @@ BOOTSTRAP
 
 TAILWIND
 
-```
+```html
 <div class="fixed z-50 text-xs font-bold text-black p-2">
     <span class="sm:hidden rounded px-1 bg-yellow-400 p-1">XS</span>
     <span class="hidden sm:inline-block md:hidden rounded px-1 bg-yellow-400">SM</span>
